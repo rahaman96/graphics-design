@@ -1,0 +1,257 @@
+.cardBodyDark {
+    background-color: #152436;
+}
+
+.cardBodyLight {
+    background-color: #FFFFFF;
+}
+.aiDoller {
+    /* background: rgba(255, 255, 255, 0.15); */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100%;
+
+}
+
+.dollerIcon {
+    color: #F04F29;
+}
+
+.lastPurchase {
+    padding-left: 20px;
+}
+
+
+.cardTitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  
+}
+
+.cardText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* color: rgba(255, 255, 255, 0.75); */
+}
+
+/* contact Info */
+/* .contactIfo {
+    background-color: #152436;
+} */
+.Info{
+    
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+}
+/* .contactDetails {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+} */
+/* 
+.firstCard {
+    background: rgba(255, 255, 255, 0.1);
+} */
+
+.textName {
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.15); */
+    padding-left: 15px;
+}
+
+.textFirst {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* color: rgba(255, 255, 255, 0.75); */
+}
+
+.firstName {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* progressBar */
+.dealScore {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.score {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.progressBar {
+    margin-top: -15px;
+}
+
+.progress {
+    --bs-progress-height: .5rem;
+}
+
+/* Predicted */
+
+.Predicted {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* color: rgba(255, 255, 255, 0.75); */
+}
+
+/* cardDot */
+.dotCard {
+    width: 300px;
+    /* height: 100px; */
+    /* left: 396px;
+    top: 368px; */
+
+    /* border: 1px dashed rgba(255, 255, 255, 0.15); */
+    border-radius: 10px;
+}
+
+.price {
+    height: 38px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.monthlySale {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+
+    /* color: rgba(255, 255, 255, 0.75); */
+
+}
+
+/* contactActivity */
+.contactActivity {
+    background-color: #152436;
+
+}
+
+.Activity {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+
+}
+
+.BsTelephoneIcon {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+}
+/* 
+.contactText {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+} */
+
+.Icon {
+    position: absolute;
+    /* top: 0%; */
+    /* top: 15%;
+    left: 5%; */
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    border-radius: 50%;
+    /* background: #4B5662; */
+    margin-top: -12px;
+    margin-left: 15px;
+    /* left: 1%; */
+
+}
+
+.bsIcon {
+    position: relative;
+    color: #F04F29;
+
+
+}
+/* 
+.Guy {
+    background: rgba(255, 255, 255, 0.1);
+} */
+
+.guyMain {
+    padding-left: 10px;
+}
+
+.guyText {
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+
+}
+
+.textDate {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: capitalize;
+    /* color: rgba(255, 255, 255, 0.5); */
+}
+
+.loremText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    /* color: rgba(255, 255, 255, 0.75); */
+}
+
+.Number {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+}
+
+.progress-bar{
+    background-color: #F9D61E;
+}

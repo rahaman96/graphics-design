@@ -1,0 +1,285 @@
+/* dark and light */
+.profileMainDark {
+    background-color: #152436;
+}
+
+.profileMainLight {
+    background-color: #FFFFFF;
+}
+
+.darkProfileButton {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.lightProfileButton {
+    background: rgba(51, 51, 51, 0.05);
+}
+
+.darkProfileColor {
+    color: #FFFFFF;
+}
+
+.lightProfileColor {
+    color: #F04F29;
+}
+
+.darkHover:hover {
+    background: rgb(255, 255, 255, 0.15);
+}
+
+.lightHover:hover {
+    background: rgba(240, 79, 41, 0.15);
+}
+
+/* dark and light */
+
+.Profile {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ProfileText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* color: #FFFFFF; */
+
+}
+
+.profileLead {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.profileHeader {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* color: #FFFFFF; */
+
+}
+
+.Text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* color: rgba(255, 255, 255, 0.75); */
+
+}
+
+.profileFotter {
+    /* display: flex; */
+    width: 100%;
+    border-radius: 30px;
+}
+
+.BsTelephone {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 14%;
+}
+
+.bsFirst {
+    padding-left: 10px;
+
+}
+
+.borderLeft {
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    text-align: center;
+}
+
+/* People start*/
+.people {
+    background-color: #152436;
+
+}
+
+.peopleIcon {
+    margin-left: -20px;
+}
+
+.iconPeople {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+
+}
+
+.peopleHeader {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+
+}
+
+.peopleText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+
+}
+
+.peoplePara {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.peopleDetails {
+    height: 555px;
+    overflow-y: auto;
+}
+
+.profileImg {
+    position: relative;
+
+}
+
+.bsCircle {
+    position: absolute;
+    color: #00CC00;
+    top: 65%;
+    left: 70%;
+}
+
+/* .toggleButton{
+    width: 20vw;
+} */
+
+
+
+.toggle {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.toggle-switch {
+    display: inline-block;
+    background: #ccc;
+    border-radius: 16px;
+    width: 70px;
+    height: 32px;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+}
+
+.toggle-switch:before,
+.toggle-switch:after {
+    content: "";
+}
+
+.toggle-switch:before {
+    display: block;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: left 0.25s;
+}
+
+.toggle:hover .toggle-switch:before {
+    background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+/* 
+.toggle-checkbox:checked+.toggle-switch {
+    background: #56c080;
+} */
+
+.toggle-checkbox:checked+.toggle-switch:before {
+    left: 40px;
+}
+
+.toggle-checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+
+.toggle-label {
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.Lead{
+    color: red;
+}
+
+/* .morePeople {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+} */
+/* 
+.morePeople:hover {
+    background: rgba(255, 255, 255, 0.15);
+} */
+
+/* People End*/
+
+/* input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label {
+    background: red;
+    text-indent: -9999px;
+    width: 200px;
+    height: 100px;
+    background: gray;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+label::after {
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 5px;
+    width: 90px;
+    height: 90px;
+    background: #FFFFFF;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+input:checked + label {
+    background: #bada55;
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+label:active::after{
+    width: 130px;
+} */
